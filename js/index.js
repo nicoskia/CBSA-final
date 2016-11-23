@@ -6,13 +6,13 @@ imageArrayC[3] = "images/CBSA/c-4.JPG";
 imageArrayC[4] = "images/CBSA/c-5.JPG";
 imageArrayC[5] = "images/CBSA/c-6.JPG";
 imageArrayC[6] = "images/CBSA/c-7.JPG";
-imageArrayC[4] = "images/CBSA/c-8.JPG";
-imageArrayC[5] = "images/CBSA/c-9.JPG";
-imageArrayC[6] = "images/CBSA/c-10.JPG";
+imageArrayC[7] = "images/CBSA/c-8.JPG";
+imageArrayC[8] = "images/CBSA/c-9.JPG";
+imageArrayC[9] = "images/CBSA/c-10.JPG";
 
 function doC() {
     "use strict";
-    var rand = Math.floor(Math.random() * 7), imgPath = "<img src='" + imageArrayC[rand] + "' alt='header' border='0' align='absmiddle' />";
+    var rand = Math.floor(Math.random() * 10), imgPath = "<img src='" + imageArrayC[rand] + "' alt='header' border='0' align='absmiddle' />";
     document.getElementById("imageC").innerHTML = imgPath;
 }
 
@@ -24,12 +24,12 @@ imageArrayB[2] = "images/CBSA/b-3.JPG";
 imageArrayB[3] = "images/CBSA/b-4.JPG";
 imageArrayB[4] = "images/CBSA/b-5.JPG";
 imageArrayB[5] = "images/CBSA/b-6.JPG";
-imageArrayB[5] = "images/CBSA/b-7.JPG";
-imageArrayB[5] = "images/CBSA/b-8.JPG";
+imageArrayB[6] = "images/CBSA/b-7.JPG";
+imageArrayB[7] = "images/CBSA/b-8.JPG";
 
 function doB() {
     "use strict";
-    var rand = Math.floor(Math.random() * 6), imgPath = "<img src='" + imageArrayB[rand] + "' alt='header' border='0' align='absmiddle' />";
+    var rand = Math.floor(Math.random() * 8), imgPath = "<img src='" + imageArrayB[rand] + "' alt='header' border='0' align='absmiddle' />";
     document.getElementById("imageB").innerHTML = imgPath;
 }
 
@@ -40,14 +40,14 @@ imageArrayS[1] = "images/CBSA/s-2.JPG";
 imageArrayS[2] = "images/CBSA/s-3.JPG";
 imageArrayS[3] = "images/CBSA/s-4.JPG";
 imageArrayS[4] = "images/CBSA/s-5.JPG";
-imageArrayS[1] = "images/CBSA/s-6.JPG";
-imageArrayS[2] = "images/CBSA/s-7.JPG";
-imageArrayS[3] = "images/CBSA/s-8.JPG";
-imageArrayS[4] = "images/CBSA/s-9.JPG";
+imageArrayS[5] = "images/CBSA/s-6.JPG";
+imageArrayS[6] = "images/CBSA/s-7.JPG";
+imageArrayS[7] = "images/CBSA/s-8.JPG";
+imageArrayS[8] = "images/CBSA/s-9.JPG";
 
 function doS() {
     "use strict";
-    var rand = Math.floor(Math.random() * 5), imgPath = "<img src='" + imageArrayS[rand] + "' alt='header' border='0' align='absmiddle' />";
+    var rand = Math.floor(Math.random() * 9), imgPath = "<img src='" + imageArrayS[rand] + "' alt='header' border='0' align='absmiddle' />";
     document.getElementById("imageS").innerHTML = imgPath;
 }
 
@@ -58,13 +58,13 @@ imageArrayA[1] = "images/CBSA/a-2.JPG";
 imageArrayA[2] = "images/CBSA/a-3.JPG";
 imageArrayA[3] = "images/CBSA/a-4.JPG";
 imageArrayA[4] = "images/CBSA/a-5.JPG";
-imageArrayA[4] = "images/CBSA/a-6.JPG";
-imageArrayA[4] = "images/CBSA/a-7.JPG";
-imageArrayA[4] = "images/CBSA/a-8.JPG";
+imageArrayA[5] = "images/CBSA/a-6.JPG";
+imageArrayA[6] = "images/CBSA/a-7.JPG";
+imageArrayA[7] = "images/CBSA/a-8.JPG";
 
 function doA() {
     "use strict";
-    var rand = Math.floor(Math.random() * 5), imgPath = "<img src='" + imageArrayA[rand] + "' alt='header' border='0' align='absmiddle' />";
+    var rand = Math.floor(Math.random() * 8), imgPath = "<img src='" + imageArrayA[rand] + "' alt='header' border='0' align='absmiddle' />";
     document.getElementById("imageA").innerHTML = imgPath;
 }
 
