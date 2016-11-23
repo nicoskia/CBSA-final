@@ -378,7 +378,7 @@ ul.topnav li.icon {
 }
 
 @media screen and (max-width:860px) {
-    ul.topnav li:not(: first-child) {
+    ul.topnav li:not(:first-child) {
         display: none;
     }
     ul.topnav li.icon {
@@ -406,25 +406,6 @@ ul.topnav li.icon {
     }
 }
 
-
-/*****************************************************************************************************/
-
-
-/*                                                                                                   */
-
-
-/*  Branding - MSU Masthead, Search Tool and Standard Footer                                         */
-
-
-/*  Verify your website’s font size/weight/color to current branding styles for lines marked "V2.0"  */
-
-
-/*                                                                                                   */
-
-
-/*****************************************************************************************************/
-
-
 /* #Set Page Width
 ================================================== */
 
@@ -450,10 +431,6 @@ ul.topnav li.icon {
     -moz-osx-font-smoothing: grayscale;
     /* Fix for firefox rendering */
 }
-
-
-/* You may have to adjust the max-width and min-width to fit the width of your site.
-If the margin is set differently for your site, fix the margin here to reflect that. */
 
 
 /* #MSU Masthead
