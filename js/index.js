@@ -12,7 +12,7 @@ imageArrayC[9] = "images/CBSA/c-10.JPG";
 
 function doC() {
     "use strict";
-    var rand = Math.floor(Math.random() * 10), imgPath = "<img src='" + imageArrayC[rand] + "' alt='header' border='0' align='absmiddle' />";
+    var rand = Math.floor(Math.random() * 10), imgPath = "<img src='" + imageArrayC[rand] + "' alt='logo-C' border='0' align='absmiddle' />";
     document.getElementById("imageC").innerHTML = imgPath;
 }
 
@@ -29,7 +29,7 @@ imageArrayB[7] = "images/CBSA/b-8.JPG";
 
 function doB() {
     "use strict";
-    var rand = Math.floor(Math.random() * 8), imgPath = "<img src='" + imageArrayB[rand] + "' alt='header' border='0' align='absmiddle' />";
+    var rand = Math.floor(Math.random() * 8), imgPath = "<img src='" + imageArrayB[rand] + "' alt='logo-B' border='0' align='absmiddle' />";
     document.getElementById("imageB").innerHTML = imgPath;
 }
 
@@ -47,7 +47,7 @@ imageArrayS[8] = "images/CBSA/s-9.JPG";
 
 function doS() {
     "use strict";
-    var rand = Math.floor(Math.random() * 9), imgPath = "<img src='" + imageArrayS[rand] + "' alt='header' border='0' align='absmiddle' />";
+    var rand = Math.floor(Math.random() * 9), imgPath = "<img src='" + imageArrayS[rand] + "' alt='logo-S' border='0' align='absmiddle' />";
     document.getElementById("imageS").innerHTML = imgPath;
 }
 
@@ -64,7 +64,7 @@ imageArrayA[7] = "images/CBSA/a-8.JPG";
 
 function doA() {
     "use strict";
-    var rand = Math.floor(Math.random() * 8), imgPath = "<img src='" + imageArrayA[rand] + "' alt='header' border='0' align='absmiddle' />";
+    var rand = Math.floor(Math.random() * 8), imgPath = "<img src='" + imageArrayA[rand] + "' alt='logo-A' border='0' align='absmiddle' />";
     document.getElementById("imageA").innerHTML = imgPath;
 }
 
